@@ -57,6 +57,7 @@ public class Cinepolis {
 	@Test(priority=0)
 	public void inicio() 
 	{
+		//Test 1
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		driver.findElement(By.xpath("//select[@id='cmbCiudades']//option[contains(text(),'CDMX Sur')]")).click();
