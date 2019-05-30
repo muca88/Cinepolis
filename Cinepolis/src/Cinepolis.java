@@ -67,6 +67,7 @@ public class Cinepolis {
 	@Test(priority=1)
 	public void pelicula() 
 	{
+		//Test 2
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		Utility.captureScreenshot(driver, "1_Evidencia_" + hourdateFormat.format(date));
