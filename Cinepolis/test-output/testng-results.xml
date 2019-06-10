@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="193099" started-at="2019-05-29T17:16:51Z" finished-at="2019-05-29T17:20:04Z">
+  <suite name="Default suite" duration-ms="66392" started-at="2019-06-07T18:53:06Z" finished-at="2019-06-07T18:54:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="193099" started-at="2019-05-29T17:16:51Z" finished-at="2019-05-29T17:20:04Z">
+    <test name="Default test" duration-ms="66392" started-at="2019-06-07T18:53:06Z" finished-at="2019-06-07T18:54:13Z">
       <class name="Cinepolis">
-        <test-method status="PASS" signature="navegador()[pri:0, instance:Cinepolis@2a70a3d8]" name="navegador" is-config="true" duration-ms="127289" started-at="2019-05-29T17:16:51Z" finished-at="2019-05-29T17:18:58Z">
+        <test-method status="PASS" signature="navegador()[pri:0, instance:Cinepolis@2a70a3d8]" name="navegador" is-config="true" duration-ms="22910" started-at="2019-06-07T18:53:06Z" finished-at="2019-06-07T18:53:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navegador -->
-        <test-method status="PASS" signature="inicio()[pri:0, instance:Cinepolis@2a70a3d8]" name="inicio" duration-ms="14348" started-at="2019-05-29T17:18:58Z" finished-at="2019-05-29T17:19:12Z">
+        <test-method status="PASS" signature="inicio()[pri:0, instance:Cinepolis@2a70a3d8]" name="inicio" duration-ms="6048" started-at="2019-06-07T18:53:29Z" finished-at="2019-06-07T18:53:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicio -->
-        <test-method status="PASS" signature="pelicula()[pri:1, instance:Cinepolis@2a70a3d8]" name="pelicula" duration-ms="12556" started-at="2019-05-29T17:19:12Z" finished-at="2019-05-29T17:19:25Z">
+        <test-method status="PASS" signature="pelicula()[pri:1, instance:Cinepolis@2a70a3d8]" name="pelicula" duration-ms="8958" started-at="2019-06-07T18:53:35Z" finished-at="2019-06-07T18:53:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pelicula -->
-        <test-method status="PASS" signature="seleccionaHorario()[pri:2, instance:Cinepolis@2a70a3d8]" name="seleccionaHorario" duration-ms="10431" started-at="2019-05-29T17:19:25Z" finished-at="2019-05-29T17:19:35Z">
+        <test-method status="PASS" signature="seleccionaHorario()[pri:2, instance:Cinepolis@2a70a3d8]" name="seleccionaHorario" duration-ms="6050" started-at="2019-06-07T18:53:44Z" finished-at="2019-06-07T18:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seleccionaHorario -->
-        <test-method status="PASS" signature="escogeLugar()[pri:3, instance:Cinepolis@2a70a3d8]" name="escogeLugar" duration-ms="6837" started-at="2019-05-29T17:19:35Z" finished-at="2019-05-29T17:19:42Z">
+        <test-method status="PASS" signature="escogeLugar()[pri:3, instance:Cinepolis@2a70a3d8]" name="escogeLugar" duration-ms="2263" started-at="2019-06-07T18:53:50Z" finished-at="2019-06-07T18:53:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- escogeLugar -->
-        <test-method status="PASS" signature="iniciaSesion()[pri:4, instance:Cinepolis@2a70a3d8]" name="iniciaSesion" duration-ms="5771" started-at="2019-05-29T17:19:42Z" finished-at="2019-05-29T17:19:48Z">
+        <test-method status="PASS" signature="iniciaSesion()[pri:4, instance:Cinepolis@2a70a3d8]" name="iniciaSesion" duration-ms="6489" started-at="2019-06-07T18:53:52Z" finished-at="2019-06-07T18:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciaSesion -->
-        <test-method status="PASS" signature="confirmaCompra()[pri:5, instance:Cinepolis@2a70a3d8]" name="confirmaCompra" duration-ms="10212" started-at="2019-05-29T17:19:48Z" finished-at="2019-05-29T17:19:58Z">
+        <test-method status="PASS" signature="confirmaCompra()[pri:5, instance:Cinepolis@2a70a3d8]" name="confirmaCompra" duration-ms="8992" started-at="2019-06-07T18:53:59Z" finished-at="2019-06-07T18:54:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmaCompra -->
-        <test-method status="PASS" signature="mensaje()[pri:6, instance:Cinepolis@2a70a3d8]" name="mensaje" duration-ms="2636" started-at="2019-05-29T17:19:58Z" finished-at="2019-05-29T17:20:01Z">
+        <test-method status="PASS" signature="mensaje()[pri:6, instance:Cinepolis@2a70a3d8]" name="mensaje" duration-ms="1640" started-at="2019-06-07T18:54:08Z" finished-at="2019-06-07T18:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mensaje -->
-        <test-method status="PASS" signature="cerrarTest()[pri:0, instance:Cinepolis@2a70a3d8]" name="cerrarTest" is-config="true" duration-ms="2967" started-at="2019-05-29T17:20:01Z" finished-at="2019-05-29T17:20:04Z">
+        <test-method status="PASS" signature="cerrarTest()[pri:0, instance:Cinepolis@2a70a3d8]" name="cerrarTest" is-config="true" duration-ms="3005" started-at="2019-06-07T18:54:10Z" finished-at="2019-06-07T18:54:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cerrarTest -->

@@ -1,5 +1,7 @@
 
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,8 +19,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
+//import atu.testrecorder.ATUTestRecorder;
+//import atu.testrecorder.exceptions.ATUTestRecorderException;
 import library.ExcelDataConfig;
 import library.Utility;
 
@@ -30,7 +32,7 @@ public class Cinepolis {
 	,telefono, tarjetaClub, mensajeUno;
 	Date date;
 	DateFormat hourdateFormat;
-	ATUTestRecorder grabar;
+	//ATUTestRecorder grabar;
 	JavascriptExecutor jse;
 	WebDriverWait wait;
 	WebElement boton, mensajeDos;
@@ -49,9 +51,9 @@ public class Cinepolis {
 		
 		date = new Date();
 		hourdateFormat = new SimpleDateFormat("HHmmss_ddMMyyyy");
-		grabar= new ATUTestRecorder("Video","cinepolis" + hourdateFormat.format(date), false);
+		//grabar= new ATUTestRecorder("Video","cinepolis" + hourdateFormat.format(date), false);
 		jse = (JavascriptExecutor) driver;
-		grabar.start();
+		//grabar.start();
 	}
 	
 	@Test(priority=0)
@@ -72,7 +74,7 @@ public class Cinepolis {
 		
 		Utility.captureScreenshot(driver, "1_Evidencia_" + hourdateFormat.format(date));
 		
-		driver.findElement(By.xpath("//div[@id='cinepolis-oasis-coyoacan-31182-dulce-familia']//time[1]")).click();	
+		driver.findElement(By.xpath("//div[@id='cinepolis-oasis-coyoacan-30466-aladdin']//div[@class='horarioExp TRAD 2D ESP']//time[1]")).click();
 	}
 	
 	@Test(priority=2)
@@ -175,14 +177,14 @@ public class Cinepolis {
 		mensajeUno="El número de tu tarjeta Club Cinépolis o la dirección de correo electrónico que ingresaste es incorrecta. Por favor vuelve a intentarlo.";
 		mensajeDos = driver.findElement(By.xpath("//p[contains(text(),'El número de tu tarjeta Club Cinépolis o la direcc')]"));
 		
-		Assert.assertEquals(mensajeUno, mensajeDos.getText());
+		AssertJUnit.assertEquals(mensajeUno, mensajeDos.getText());
 				
 	}
 	
 	@AfterTest(enabled=true)
-	public void cerrarTest() throws ATUTestRecorderException 
+	public void cerrarTest() //throws ATUTestRecorderException 
 	{
-		grabar.stop();
+		//grabar.stop();
 		driver.quit();
 	}
 	

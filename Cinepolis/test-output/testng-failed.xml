@@ -7,7 +7,6 @@
         <methods>
           <include name="navegador"/>
           <include name="escogeLugar"/>
-          <include name="inicio"/>
           <include name="seleccionaHorario"/>
           <include name="pelicula"/>
           <include name="iniciaSesion"/>
